@@ -1,0 +1,8 @@
+name: Muser
+version: 1.0
+main: com.mukri.muser.Muser
+author: DoomGary
+description: Muser by Mukri
+commands:
+  muser:
+    description: Muser commands.
