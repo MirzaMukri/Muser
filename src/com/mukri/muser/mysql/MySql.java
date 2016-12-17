@@ -97,7 +97,7 @@ public class MySql {
 				}
 				
 				return 0;
-			} catch (Exception e) {
+			} catch (SQLException e) {
 				e.printStackTrace();
 			}
 		}
@@ -135,7 +135,7 @@ public class MySql {
 					ps.close();
 					
 					System.out.println("[Muser] Removed player " + name + " from the database!");
-				} catch (Exception e) {
+				} catch (SQLException e) {
 					e.printStackTrace();
 				}
 			}
