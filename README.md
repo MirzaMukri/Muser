@@ -8,6 +8,7 @@ Requirements:
 - Minecraft Server
 
 Commands: /Muser
+
 Permissions: muser.admin
 
 Web-Register: Soon! Will be making them on a different repository.
