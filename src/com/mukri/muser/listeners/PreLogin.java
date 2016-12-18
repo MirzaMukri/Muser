@@ -27,7 +27,7 @@ public class PreLogin implements Listener {
 	public void onLogin(PlayerLoginEvent e) {
 		Player p = e.getPlayer();
 		
-		if(Muser.getIns().settings.getIP().equals("none") && Muser.getIns().settings.getDatabase().equals("database") && Muser.getIns().settings.getUser().equals("username") && Muser.getIns().settings.getPassword().equals("password")) {
+		if((Muser.getIns().settings.getIP().equals("none")) && (Muser.getIns().settings.getDatabase().equals("database")) && (Muser.getIns().settings.getUser().equals("username")) && (Muser.getIns().settings.getPassword().equals("password"))) {
 			Bukkit.broadcast("¤c[Muser] ¤7MYSQL CONNECTION IS NOT PROPERLY SETUP! PLEASE DO CHECK YOUR SETTINGS.YML", "muser.admin");
 			return;
 		}

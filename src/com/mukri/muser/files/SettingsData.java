@@ -47,7 +47,7 @@ public class SettingsData {
 				
 				file.createNewFile();
 				
-				config.set("Msg.Kick", "&c[Muser] &7Please reigtser at \n &cwww.example.com");
+				config.set("Msg.Kick", "&c[Muser]&7Please register at\n &cwww.example.com");
 				config.set("mySql.IP", "none");
 				config.set("mySql.PORT", "3306");
 				config.set("mySql.DATABASE", "database");
@@ -62,7 +62,7 @@ public class SettingsData {
 	}
 	
 	public void reloadConfig() {
-		YamlConfiguration.loadConfiguration(file);
+		config = YamlConfiguration.loadConfiguration(file);
 	}
 	
 	public String getKickMsg() {

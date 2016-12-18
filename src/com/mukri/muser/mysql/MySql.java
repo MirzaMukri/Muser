@@ -21,7 +21,7 @@ public class MySql {
 	
 	public MySql(String ip, String port,String database, String user, String password) {
 		if(!isConnected()) {
-			if(ip.equals("none") && database.equals("database") && user.equals("username") && password.equals("password")) {
+			if((ip.equals("none")) && (database.equals("database")) && (user.equals("username")) && (password.equals("password"))) {
 				Bukkit.broadcast("¤c[Muser] ¤7MYSQL CONNECTION IS NOT PROPERLY SETUP! PLEASE DO CHECK YOUR SETTINGS.YML", "muser.admin");
 				return;
 			}
