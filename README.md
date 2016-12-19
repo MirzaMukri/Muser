@@ -12,4 +12,5 @@ Commands: /Muser
 Permissions: muser.admin
 
 Web-Register: https://github.com/MirzaMukri/Muser-Web/
+
 Download: -/-
